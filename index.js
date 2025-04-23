@@ -30,9 +30,7 @@ Metalsmith(__dirname)
     default: 'default.hbs',
     pattern: '**/*.html'
   }))
-  .use(permalinks({
-    pattern: ':title'
-  }))
+  // Remove the permalinks plugin to keep files at root level
   .build(function(err) {
     if (err) throw err;
     console.log('Build completed successfully!');
