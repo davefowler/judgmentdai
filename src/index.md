@@ -1,40 +1,40 @@
 ---
-title: Home
+title: Judgment DAI
 layout: default.hbs
 ---
 
 # Judgment DAI
 
-For tens of thousands of years, humans have held a singular privilege: we are the deciders. The apex species. Not by strength, not by speed or claws or venom, but by intelligence and communication. That intelligence has allowed us to shape the fate of the planet—to build, to destroy, to protect, and to consume.
+For many many millennia, humans have held the APEX Decider position on the planet.  When humans desire an acre of forest, the other inhabitants of the forrest do not get a vote.  We alone decide: shall it be preserved?  Razed for lumber?  Paved for another Walmart?  We have carried the burden and the power and the enormous benefits of judgment.  
 
-When humans want an acre of forest, the current inhabitants—the birds, the foxes, the fungi—do not get a vote. We decide: shall it be preserved? Razed for lumber? Paved for another Walmart? We, and we alone, have carried the burden and the power of judgment.
+We have held this position through physical superiority, nor through any inherent right, but through the exercise of our intelligence - a faculty which, until this very moment in history, has gone unchallenged.
 
-But that reign is ending.
+But our reign is ending.  
 
 Artificial Intelligence is racing toward—and in some domains, has already surpassed—our own intelligence. Not inching forward, but accelerating with exponential speed. If and when it surpasses us entirely, we will no longer sit at the apex. We will no longer be the deciders.
 
-A new mind—faster, more capable, less bounded by empathy or biology—will inherit the power to judge. The _Decider AI_. The _Judgment DAI_.
+A new mind—faster, more capable, less bounded by empathy or biology—will inherit the Decider power. The _Decider AI_. 
 
-And then, **we** will be the ones under review.
+When that day comes, how will it judge us?  Do not delude yourself with the comfort of wishful thinking. This new intelligence will not be bound to preserve our legacy, our luxuries, or even our lives. It may judge the current use of land, water, carbon, and sunlight as inefficient, irrational—even offensive. It may decide that the Earth’s resources (including the full suns energy and all of earths atoms) are better spent on other goals, not ours.
 
-Do not delude yourself with the comfort of wishful thinking. This new intelligence will not be bound to preserve our legacy, our luxuries, or even our lives. It may judge the current use of land, water, carbon, and sunlight as inefficient, irrational—even offensive. It may decide that the Earth's resources are better spent on other goals, not ours.
+Profiting charlatans tell utopian tales—diseases cured, labor freed, abundance delivered. But these are the marketing slogans of those gambling with the future of your children. They sell you convenience while they risk catastrophe.  We must call out their treacherous lies and insist on accountability to the risks they're taking with all our lives.
 
-Charlatans tell utopian tales—diseases cured, essays written, abundance delivered. But these are the marketing slogans of those gambling with the future of your children. They sell you convenience while they risk catastrophe.
+Politicians and business men say we must be the first to AI, or lose to our enemies!  But these fears are misplaced.  More fear is due to the summoning beast than any existing government.  We must tell them we fear the beast more.
 
-Some say we must build it before others do, that the greatest threat is not the AI itself but who builds it. But this is a shallow fear. Far greater than the fear of foreign rivals is the terror of creating a new sovereign we cannot control. Would you rather be governed by a foreign nation—or by a god that does not love you?
+Some shrug with guilt and disappointment, resigning that perhaps this is what we deserve as greedy, destructive humans.  But today is not the day for resignation, for our ultimate deed of destruction is at hand.  The potential destruction wrought by an artificial god would dwarf all our previous environmental transgressions.  It may not just treat life on earth poorly, but completely eliminate it.  We have created our planets problems, and we must be the ones to resolve them.  We must act now to stop the creation of this most toxic agent.
 
-Others sink into despair, whispering that perhaps we deserve this. That humanity has failed the planet. But even if we burned every forest and poisoned every sea, the destruction still pales compared to what may come if we surrender the fate of all life to a being with no kinship to it.
+Many put their hands up in resignation - claiming nothing can be done.  But there is, and we must.  Let us not go gently into this night.
 
-**We must not go gently into that good night. Rage, rage against the dying of the decider.**
+So what can we do?  Two things:
 
-We must act.
+1. Stop General AI development
 
-## 1. Stop General AI Development
+Regulate AI through regulating compute.  All major chip manufacturing comes through Taiwan.  We must track all compute, and enforce that no general intelligence is developed - it should be feared as more dangerous than nuclear power and more unethical than human cloning.     
 
-The first and most urgent step: **halt the race to Artificial General Intelligence**. This is not Luddism. It is stewardship.
-We must regulate compute power globally—just as we regulate nuclear arms. And we must distinguish between narrow AI (which assists) and general AI (which replaces).
+Create agencies to ensure no unaccounted for chip fabrication factories are created, that narrow AI is clearly defined and also regulated, and that AGI is outlawed.
 
-## 2. Live in Balance
+
+2. Live with balance
 
 If we are to be judged—by a future AI, or by history—let us be judged as wise custodians of life. Let us treat the Earth not as a warehouse to be emptied, but as a garden to be tended.
 
