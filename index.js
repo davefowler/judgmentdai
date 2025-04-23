@@ -6,7 +6,7 @@ const permalinks = require('metalsmith-permalinks');
 Metalsmith(__dirname)
   .metadata({
     site: {
-      title: 'JudgementDAI',
+      title: 'Judgment DAI',
       url: 'https://judgementdai.com'
     }
   })
@@ -14,14 +14,14 @@ Metalsmith(__dirname)
   .destination('./build')
   .clean(true)
   .use(markdown())
-  .use(permalinks({
-    pattern: ':title'
-  }))
   .use(layouts({
     engine: 'handlebars',
     directory: './layouts',
     default: 'default.hbs',
     pattern: '**/*.html'
+  }))
+  .use(permalinks({
+    pattern: ':title'
   }))
   .build(function(err) {
     if (err) throw err;
