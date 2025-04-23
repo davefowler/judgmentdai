@@ -5,13 +5,7 @@
 [build.environment]
   NODE_VERSION = "16"
 
-# Redirect rule for SPA fallback
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-  
-# Specific redirects for HTML files
+# Pretty URLs without .html extension
 [[redirects]]
   from = "/about"
   to = "/about.html"
