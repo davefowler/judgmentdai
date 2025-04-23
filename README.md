@@ -67,6 +67,49 @@ This site is configured to deploy easily to Netlify.
 
 The included `netlify.toml` file already configures the build settings for Netlify. Just push your code to a Git repository and connect it to Netlify.
 
+#### Option 3: Deploy directly from local machine
+
+You can also deploy directly from your local machine using the Netlify CLI:
+
+1. Install the Netlify CLI globally:
+   ```bash
+   npm install -g netlify-cli
+   ```
+
+2. Build your site:
+   ```bash
+   npm run build
+   ```
+
+3. Login to Netlify:
+   ```bash
+   netlify login
+   ```
+
+4. Initialize Netlify in your project:
+   ```bash
+   netlify init
+   ```
+   - Select "Create & configure a new site"
+   - Follow the prompts to select your team and site name
+
+5. Deploy your site:
+   ```bash
+   netlify deploy --prod
+   ```
+
+### Custom Domain Setup
+
+After deploying to Netlify:
+
+1. Go to your site's dashboard on Netlify
+2. Navigate to "Domain settings"
+3. Click "Add custom domain"
+4. Enter your domain (e.g., judgmentdai.com)
+5. Follow Netlify's instructions to configure your DNS settings
+
+For more information, see [Netlify's documentation on custom domains](https://docs.netlify.com/domains-https/custom-domains/).
+
 ## Project Structure
 
 ```

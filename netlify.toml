@@ -5,9 +5,24 @@
 [build.environment]
   NODE_VERSION = "16"
 
+# Redirect rule for SPA fallback
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-  force = false
-  conditions = {Language = ["en"], Country = ["US"]}
+  
+# Specific redirects for HTML files
+[[redirects]]
+  from = "/about"
+  to = "/about.html"
+  status = 200
+
+[[redirects]]
+  from = "/after"
+  to = "/after.html"
+  status = 200
+
+[[redirects]]
+  from = "/plan"
+  to = "/plan.html"
+  status = 200
