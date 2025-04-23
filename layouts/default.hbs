@@ -35,5 +35,20 @@
       <p><small>The future of humanity depends on the decisions we make today.</small></p>
     </div>
   </footer>
+  
+  <script>
+    // Add active class to current page in navigation
+    document.addEventListener('DOMContentLoaded', function() {
+      const currentLocation = window.location.pathname;
+      const navLinks = document.querySelectorAll('nav ul li a');
+      
+      navLinks.forEach(link => {
+        const linkPath = link.getAttribute('href');
+        if (currentLocation.endsWith(linkPath)) {
+          link.classList.add('active');
+        }
+      });
+    });
+  </script>
 </body>
 </html>
