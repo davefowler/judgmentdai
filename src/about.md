@@ -1,6 +1,7 @@
 ---
 title: About
 layout: default.hbs
+bg-image: judgment-dai-future-earth.png
 ---
 
 # About Judgment DAI

@@ -9,32 +9,103 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <meta name="description" content="Judgment DAI - Addressing the existential risks of artificial general intelligence">
+  
+  <!-- Set page-specific background image if defined in frontmatter -->
+  {{#if bg-image}}
+  <style>
+    body {
+      background-image: url('/assets/{{bg-image}}'), url('/assets/bg-stars.png');
+    }
+    
+    /* Hero image fade overlay */
+    body::after {
+      content: '';
+      position: absolute;
+      top: calc(100vw * 0.55); /* Position near bottom of hero image based on aspect ratio */
+      left: 0;
+      right: 0;
+      height: 150px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+      z-index: -1;
+      pointer-events: none;
+    }
+    
+    /* Responsive adjustments for fade overlay */
+    @media (max-width: 1200px) {
+      body::after {
+        top: calc(100vw * 0.6);
+      }
+    }
+    
+    @media (max-width: 768px) {
+      body::after {
+        top: calc(100vw * 0.8);
+        height: 100px;
+      }
+    }
+  </style>
+  {{else}}
+  <style>
+    body {
+      background-image: url('/assets/judgment-dai-future-earth.png'), url('/assets/bg-stars.png');
+    }
+    
+    /* Hero image fade overlay */
+    body::after {
+      content: '';
+      position: absolute;
+      top: calc(100vw * 0.55); /* Position near bottom of hero image based on aspect ratio */
+      left: 0;
+      right: 0;
+      height: 150px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+      z-index: -1;
+      pointer-events: none;
+    }
+    
+    /* Responsive adjustments for fade overlay */
+    @media (max-width: 1200px) {
+      body::after {
+        top: calc(100vw * 0.6);
+      }
+    }
+    
+    @media (max-width: 768px) {
+      body::after {
+        top: calc(100vw * 0.8);
+        height: 100px;
+      }
+    }
+  </style>
+  {{/if}}
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1 class="logo">Judgment DAI</h1>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/after">After</a></li>
-          <li><a href="/plan">Plan</a></li>
-          <li><a href="/about">About</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+  <div id="page-container">
+    <header>
+      <div class="container">
+        <h1 class="logo">Judgment DAI</h1>
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/after">After</a></li>
+            <li><a href="/plan">Plan</a></li>
+            <li><a href="/about">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-  <main class="container">
-    {{{ contents }}}
-  </main>
+    <main class="container">
+      {{{ contents }}}
+    </main>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Judgment DAI. All rights reserved.</p>
-      <p><small>The future of humanity depends on the decisions we make today.</small></p>
-    </div>
-  </footer>
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Judgment DAI. All rights reserved.</p>
+        <p><small>The future of humanity depends on the decisions we make today.</small></p>
+      </div>
+    </footer>
+  </div>
   
   <script>
     // Add active class to current page in navigation
@@ -48,6 +119,28 @@
           link.classList.add('active');
         }
       });
+      
+      // Verify main background image loading
+      const bgImagePath = '{{#if bg-image}}/assets/{{bg-image}}{{else}}/assets/judgment-dai-future-earth.png{{/if}}';
+      const mainImg = new Image();
+      mainImg.onload = function() {
+        // Image loaded successfully
+        document.body.classList.add('bg-loaded');
+      };
+      mainImg.onerror = function() {
+        // Main image failed to load - use only stars background but preserve the fade
+        document.body.style.backgroundImage = "url('/assets/bg-stars.png')";
+        document.body.classList.add('bg-error');
+      };
+      mainImg.src = bgImagePath;
+
+      // Also verify stars background image loading
+      const starsImg = new Image();
+      starsImg.onerror = function() {
+        // Stars image failed to load
+        console.warn('Stars background failed to load');
+      };
+      starsImg.src = '/assets/bg-stars.png';
     });
   </script>
 </body>

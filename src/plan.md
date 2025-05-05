@@ -1,6 +1,7 @@
 ---
 title: Plan
 layout: default.hbs
+bg-image: judgment-dai-future-earth.png
 ---
 
 # The Plan

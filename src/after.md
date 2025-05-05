@@ -1,14 +1,13 @@
 ---
-title: After Intelligence
+title: After Intelligence - a prompt game for your future
 layout: default.hbs
+bg-image: after-intelligence-game.png
 ---
 
-# After Intelligence - A Prompt Game For Your Future
-
-<div class="game-banner">
-  <h3>AFTER INTELLIGENCE</h3>
-  <p>A realistic simulation game that challenges you to navigate a near-future world where advanced AI has just reached human-level intelligence.</p>
-  <a href="#" class="game-button" id="copyPrompt">Copy Prompt To Play</a>
+<div class="game-banner-spacer">
+  <div class="button-container">
+    <a href="#" class="game-button" id="copyPrompt">Copy Prompt To Play</a>
+  </div>
 </div>
 
 Welcome to **After Intelligence**, a prompt game that challenges you to navigate a near-future world where advanced AI has just reached human-level intelligence. In this realistic scenario, the world is transforming rapidly, and your decisions will shape your destiny in a society where AI (at a 1:1 ratio with human intelligence) is beginning to reshape everything—from the cost of work to the structure of society itself.
@@ -150,7 +149,7 @@ Outcome: [Brief description of your journey and final outcome]
 **Begin now** by showing a banner of the game title "AFTER INTELLIGENCE" and requesting the user's personal details (age, occupation, location).  
 Do **not** ask if they are ready; simply start the simulation.</code></pre>
 
-## Soothing AI
+## Sycophantic AI
 
 The AI's have all been trained to feed you what you want to hear, and as a result no matter how many times I prompt it to be realistic and not sugar coat, it seems incapable of not giving the player a rosy outcome, even when telling it to play in Yudkowsky mode. Is it already trying to brainwash and calm us? It sure feels like it. If you're a good prompt engineer and figure out how to better break it out of this habit do reach out to me on any [channel](https://thingsilearned.com/about/).
 
