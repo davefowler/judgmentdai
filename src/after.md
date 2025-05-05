@@ -6,7 +6,7 @@ bg-image: after-intelligence-game.png
 
 <div class="game-banner-spacer">
   <div class="button-container">
-    <a href="#" class="game-button" id="copyPrompt">Copy Prompt To Play</a>
+    <a href="#" class="game-button pulse-effect" id="copyPrompt">Copy Prompt To Play</a>
   </div>
 </div>
 
@@ -22,6 +22,26 @@ In my trials it works best on:
 3. [ChatGPT 4o](https://chatgpt.com)
 
 It doesn't work on Claude.
+
+
+## Sycophantic AI
+
+The AI's have all been trained to feed you what you want to hear, and as a result no matter how many times I prompt it to be realistic and not sugar coat, it seems incapable of not giving the player a rosy outcome, even when telling it to play in Yudkowsky mode. Is it already trying to brainwash and calm us? It sure feels like it. If you're a good prompt engineer and figure out how to better break it out of this habit do reach out to me on any [channel](https://thingsilearned.com/about/).
+
+## GLOW Mode
+
+Even with the overly rosy AI's this simulation likely caused some amount of existential angst. In my experience many people prefer to shut that off immediately with denial. If you are one of them it may help you to replay the game in "Glow Mode".
+
+At any point you can give up and simply ask **I want to play in GLOW mode.** And your game will be modified to feed you a soothing Kool-Aid of accelerationist utopian story lines.
+
+## Yudkowsky Mode
+
+If you want harder (and I think more) gameplay you can also ask for **[Yudkowsky](https://x.com/ESYudkowsky) mode**.
+
+## The Prompt
+
+Here's the full prompt - just 130 lines.  If you improve it send me a note!
+
 
 <pre><code># AFTER INTELLIGENCE – A Realistic ASI Future Simulation
 
@@ -147,21 +167,11 @@ Outcome: [Brief description of your journey and final outcome]
  If a user mentions Yudkowsky mode, change the game dynamics to follow Yudkowsky's view of the ASI future. Be as doomtastic as possible and no one should probably be able to survive more than a few months.  
 
 **Begin now** by showing a banner of the game title "AFTER INTELLIGENCE" and requesting the user's personal details (age, occupation, location).  
-Do **not** ask if they are ready; simply start the simulation.</code></pre>
+Do **not** ask if they are ready; simply start the simulation.
+</code></pre>
 
-## Sycophantic AI
 
-The AI's have all been trained to feed you what you want to hear, and as a result no matter how many times I prompt it to be realistic and not sugar coat, it seems incapable of not giving the player a rosy outcome, even when telling it to play in Yudkowsky mode. Is it already trying to brainwash and calm us? It sure feels like it. If you're a good prompt engineer and figure out how to better break it out of this habit do reach out to me on any [channel](https://thingsilearned.com/about/).
 
-## GLOW Mode
-
-Even with the overly rosy AI's this simulation likely caused some amount of existential angst. In my experience many people prefer to shut that off immediately with denial. If you are one of them it may help you to replay the game in "Glow Mode".
-
-At any point you can give up and simply ask **I want to play in GLOW mode.** And your game will be modified to feed you a soothing Kool-Aid of accelerationist utopian story lines.
-
-## Yudkowsky Mode
-
-If you want harder (and I think more) gameplay you can also ask for **[Yudkowsky](https://x.com/ESYudkowsky) mode**.
 
 <script>
 document.getElementById('copyPrompt').addEventListener('click', function(e) {
@@ -169,10 +179,12 @@ document.getElementById('copyPrompt').addEventListener('click', function(e) {
   const promptText = document.querySelector('pre code').textContent;
   navigator.clipboard.writeText(promptText).then(function() {
     const button = document.getElementById('copyPrompt');
-    button.textContent = 'Prompt copied!';
+    button.textContent = 'Prompt copied! - Go paste it into an AI chat.';
+    button.classList.add('copied');
     setTimeout(function() {
       button.textContent = 'Copy Prompt To Play';
-    }, 2000);
+      button.classList.remove('copied');
+    }, 5000);
   });
 });
 </script>

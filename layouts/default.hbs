@@ -83,15 +83,17 @@
   <div id="page-container">
     <header>
       <div class="container">
-        <h1 class="logo">Judgment DAI</h1>
-        <nav>
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/after">After</a></li>
-            <li><a href="/plan">Plan</a></li>
-            <li><a href="/about">About</a></li>
-          </ul>
-        </nav>
+        <div class="header-wrapper">
+          <h1 class="logo"><a href="/">Judgment DAI</a></h1>
+          <nav>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/after">After</a></li>
+              <li><a href="/plan">Plan</a></li>
+              <li><a href="/about">About</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
 
@@ -102,7 +104,7 @@
     <footer>
       <div class="container">
         <p>&copy; 2025 Judgment DAI. All rights reserved.</p>
-        <p><small>The future of humanity depends on the decisions we make today.</small></p>
+        <p><small>The future of all life on Earth depends on the decisions we make today.</small></p>
       </div>
     </footer>
   </div>
@@ -115,7 +117,8 @@
       
       navLinks.forEach(link => {
         const linkPath = link.getAttribute('href');
-        if (currentLocation.endsWith(linkPath)) {
+        if ((currentLocation === '/' && linkPath === '/') || 
+            (currentLocation !== '/' && currentLocation.includes(linkPath) && linkPath !== '/')) {
           link.classList.add('active');
         }
       });

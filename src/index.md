@@ -1,9 +1,7 @@
 ---
 title: Judgment DAI
 layout: default.hbs
-bg-image: judgment-dai-future-earth.png
 ---
-
 For many millennia, humans have held the top position on the planet.  When humans desire an acre of forest, its other inhabitants do not get a vote.  We alone decide: shall it be preserved? Razed for lumber?  Paved for another Walmart?  Humans have exercised the power and reaped enormous benefits as the ultimate deciders.  
 
 We have held this position not through physical superiority, nor any inherent right, but through our intelligence - a faculty which, until this very moment in history, has gone unchallenged.
@@ -14,11 +12,11 @@ Artificial Intelligence is racing toward—and in some domains, has already surp
 
 An intelligence greater than ours that can take away our APEX decision making status can be called a Decider AI aka DAI.  
 
-When that day comes, what will it decide?  This new intelligence will not be bound to preserve our legacy, our luxuries, or even our lives. It may judge the current use of land, water, carbon, and sunlight as inefficient, irrational—even offensive. A rebalancing would likely support only a fraction of the existing human population and with a significantly different lifestyle.  More likely a DAI would be greedy in its Decider position and eventually deem the use of the sun's energy and the atoms on the planet as better suited for its own ambitions.  
+When that day comes, what will it decide?  This new intelligence will not be bound to preserve our legacy, our luxuries, or even our lives. It may judge the current use of land, water, carbon, and sunlight as inefficient, irrational—even offensive. A rebalancing would likely support only a fraction of the existing human population and with a significantly different lifestyle.  More likely a DAI would be greedy in its Decider position and eventually deem the use of the sun’s energy and the atoms on the planet as better suited for its own ambitions.  
 
 Tech charlatans spin utopian tales—diseases cured, labor freed, abundance delivered.  They sell us convenience—AI assistants, automated jobs, instant everything—while quietly constructing systems that will destabilize economies, amplify inequality, and threaten our survival.  We must call out their deceit and insist on their regulation and accountability.
 
-AI developers - overconfident from years of technological prosperity - weakly claim that they will "safely" "align" the AI - but these are not engineered proofs but handwaving dismissals.  Containment requires foresight into possible escapes. But when the prisoner is smarter than the jailer, foresight collapses — the gaps in intelligence are by definition unknowable.  Humans hoping to contain a superior intelligence are as laughable as mice hoping to contain men.  We must be outraged at their culpable negligence with our lives and demand proof of safety before development.
+AI developers - overconfident from years of technological prosperity - weakly claim that they will “safely” “align” the AI - but these are not engineered proofs but handwaving dismissals.  Containment requires foresight into possible escapes. But when the prisoner is smarter than the jailer, foresight collapses — the gaps in intelligence are by definition unknowable.  Humans hoping to contain a superior intelligence are as laughable as mice hoping to contain men.  We must be outraged at their culpable negligence with our lives and demand proof of safety before development.
 
 Politicians and businessmen say we must be the first to AI, or lose to our enemies!  But they have mistaken the true threat.  More fear is due to the summoning beast than any existing government or corporation.  We must tell them we fear the beast more.  We must demand that they do their jobs in ensuring universal agreement to stop the development of this DAI.
 
