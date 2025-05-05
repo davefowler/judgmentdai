@@ -4,11 +4,16 @@ layout: default.hbs
 bg-image: after-intelligence-game.png
 ---
 
+
 <div class="game-banner-spacer">
   <div class="button-container">
     <a href="#" class="game-button pulse-effect" id="copyPrompt">Copy Prompt To Play</a>
   </div>
 </div>
+<br>
+<br>
+<br>
+
 
 Welcome to **After Intelligence**, a prompt game that challenges you to navigate a near-future world where advanced AI has just reached human-level intelligence. In this realistic scenario, the world is transforming rapidly, and your decisions will shape your destiny in a society where AI (at a 1:1 ratio with human intelligence) is beginning to reshape everything—from the cost of work to the structure of society itself.
 
