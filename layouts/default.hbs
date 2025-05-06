@@ -9,77 +9,15 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <meta name="description" content="Judgment DAI - Addressing the existential risks of artificial general intelligence">
-  
-  <!-- Set page-specific background image if defined in frontmatter -->
-  {{#if bg-image}}
-  <style>
-    body {
-      background-image: url('/assets/{{bg-image}}'), url('/assets/bg-stars.png');
-    }
-    
-    /* Hero image fade overlay */
-    body::after {
-      content: '';
-      position: absolute;
-      top: calc(100vw * 0.55); /* Position near bottom of hero image based on aspect ratio */
-      left: 0;
-      right: 0;
-      height: 150px;
-      background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
-      z-index: -1;
-      pointer-events: none;
-    }
-    
-    /* Responsive adjustments for fade overlay */
-    @media (max-width: 1200px) {
-      body::after {
-        top: calc(100vw * 0.6);
-      }
-    }
-    
-    @media (max-width: 768px) {
-      body::after {
-        top: calc(100vw * 0.8);
-        height: 100px;
-      }
-    }
-  </style>
-  {{else}}
-  <style>
-    body {
-      background-image: url('/assets/judgment-dai-future-earth.png'), url('/assets/bg-stars.png');
-    }
-    
-    /* Hero image fade overlay */
-    body::after {
-      content: '';
-      position: absolute;
-      top: calc(100vw * 0.55); /* Position near bottom of hero image based on aspect ratio */
-      left: 0;
-      right: 0;
-      height: 150px;
-      background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
-      z-index: -1;
-      pointer-events: none;
-    }
-    
-    /* Responsive adjustments for fade overlay */
-    @media (max-width: 1200px) {
-      body::after {
-        top: calc(100vw * 0.6);
-      }
-    }
-    
-    @media (max-width: 768px) {
-      body::after {
-        top: calc(100vw * 0.8);
-        height: 100px;
-      }
-    }
-  </style>
-  {{/if}}
 </head>
 <body>
+
+  <!-- Hero image container - absolute positioned behind everything -->
+  <div class="hero-container">
+    <img src="/assets/{{bg-image}}" alt="Hero image" class="hero-image">
+    <div class="hero-gradient"></div>
+  </div>
+
   <div id="page-container">
     <header>
       <div class="container">
@@ -123,28 +61,39 @@
         }
       });
       
-      // Verify main background image loading
-      const bgImagePath = '{{#if bg-image}}/assets/{{bg-image}}{{else}}/assets/judgment-dai-future-earth.png{{/if}}';
-      const mainImg = new Image();
-      mainImg.onload = function() {
-        // Image loaded successfully
-        document.body.classList.add('bg-loaded');
-      };
-      mainImg.onerror = function() {
-        // Main image failed to load - use only stars background but preserve the fade
-        document.body.style.backgroundImage = "url('/assets/bg-stars.png')";
-        document.body.classList.add('bg-error');
-      };
-      mainImg.src = bgImagePath;
-
-      // Also verify stars background image loading
-      const starsImg = new Image();
-      starsImg.onerror = function() {
-        // Stars image failed to load
-        console.warn('Stars background failed to load');
-      };
-      starsImg.src = '/assets/bg-stars.png';
+      // Add a loaded class to trigger fade-in animation
+      document.body.classList.add('bg-loaded');
     });
+
+    // generate SVG stars procedurally
+    const SVG_NS = "http://www.w3.org/2000/svg";
+    const svg = document.getElementById("bg");
+    const starGroup = document.getElementById("stars");
+    const W = window.innerWidth, H = window.innerHeight;
+    function setStarfieldSize() {
+      // Get the greater of body and html scrollHeight (covers most edge cases)
+      const W = Math.max(document.body.scrollWidth, document.documentElement.scrollWidth);
+      const H = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
+      svg.setAttribute("width", W);
+      svg.setAttribute("height", H);
+    }
+    setStarfieldSize();
+
+    // Update on resize and scroll (in case content grows)
+    window.addEventListener('resize', setStarfieldSize);
+    window.addEventListener('scroll', setStarfieldSize);
+
+    for(let i=0; i<250; i++){
+      const c = document.createElementNS(SVG_NS, "circle");
+      const x = Math.random() * (W - 80) + 40;
+      const y = Math.random() * (H - 80) + 40;
+      const r = Math.random() * 1.5 + 0.4;
+      c.setAttribute("cx", x);
+      c.setAttribute("cy", y);
+      c.setAttribute("r", r);
+      c.setAttribute("opacity", Math.random() * 0.5 + 0.5);
+      starGroup.appendChild(c);
+    }
   </script>
 </body>
 </html>
