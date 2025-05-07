@@ -31,14 +31,17 @@ So what can we do?  Two things:
 
 ## 1. Stop General AI development 
 
-We must agree as an entire world to not develop the DAI.  Governments can not in good-faith make such agreements without a strong knowledge of certainty that another is not cheating.  Fortunately in this case we have that - we can regulate computer chips.
+We must agree as an entire world to not develop the DAI. Governments cannot in good faith make such agreements without strong certainty that others are not cheating. Fortunately, in this case, we have that — we can regulate computer chips.
 
-All major chip manufacturing comes through Taiwan.  We must track all compute, and enforce that no general intelligence is developed - it should be feared as more dangerous than nuclear power and more unethical than human cloning.     
+Frontier chip manufacturing is currently dominated by just a few companies—TSMC in Taiwan and Samsung in South Korea—while the critical lithography machines needed for chip fabrication are exclusively produced by ASML in the Netherlands. This concentrated supply chain gives us a rare opportunity: with international coordination, we can track all advanced compute and ensure it's only used for approved, licensed purposes.
 
-Create agencies to ensure no unaccounted for chip fabrication factories are created, that narrow AI is clearly defined and also regulated, and that AGI is outlawed.
+We must build a system where high-end chips are registered, their usage audited, and large training runs reported and verified. This would make it nearly impossible to secretly develop AGI without detection. General intelligence should be viewed as more dangerous than nuclear weapons and more unethical than human cloning—because its consequences are irreversible and potentially planetary in scale.
 
-TODO - add work from here: 
-https://www.governance.ai/analysis/computing-power-and-the-governance-of-ai
+To support this, we should establish international oversight bodies modeled after the IAEA. These agencies would ensure no unauthorized chip fabs are built, oversee the licensing of narrow AI systems, and enforce a global prohibition on AGI development.
+
+We've written more detail in [The Plan to Keep Control](/plan)
+
+
 
 ## 2. Live with balance
 
@@ -48,6 +51,6 @@ Let us treat Earth not as a warehouse to be emptied, but as a garden to be tende
 Let us be worthy of our role as the custodians of life.  
 We must rise above resignation. Above denial. Above greed and fear.
 
-There is **much** to be done.
+There is **much** to be done (see [The Plan to Keep Control](/plan)).
 
 And we **must** do it.

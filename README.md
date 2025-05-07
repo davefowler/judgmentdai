@@ -1,6 +1,6 @@
 # Judgment DAI Website
 
-A static website built with Metalsmith for Judgment DAI, focusing on the risks of artificial general intelligence.
+A static website built with Metalsmith for the site [Judgment DAI](https://judgmentdai.com), focusing on the risks of artificial general intelligence.
 
 ## Getting Started
 
