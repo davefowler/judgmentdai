@@ -2,15 +2,18 @@
 title: Judgment DAI
 layout: default.hbs
 ---
+
+> What if an **AI** becomes the apex **D**ecider for the plannet?
+
 For many millennia, humans have held the top position on the planet.  When humans desire an acre of forest, its other inhabitants do not get a vote.  We alone decide: shall it be preserved? Razed for lumber?  Paved for another Walmart?  Humans have exercised the power and reaped enormous benefits as the ultimate deciders.  
 
 We have held this position not through physical superiority, nor any inherent right, but through our intelligence - a faculty which, until this very moment in history, has gone unchallenged.
 
 But our reign is ending.  
 
-Artificial Intelligence is racing toward—and in some domains, has already surpassed—our own intelligence.  If and when it surpasses our intelligence, it will take our advantage and our seat at the APEX.  Should it now want that same acre of forest, for fuel, new data centers, or whatever - it will decide, not us.
+Artificial Intelligence is racing toward—and in some domains, has already surpassed—our own intelligence.  If and when it surpasses our intelligence, it will take our advantage and our seat at the top.  Should it now want that same acre of forest, for fuel, new data centers, or whatever - it will decide, not us.
 
-An intelligence greater than ours that can take away our APEX decision making status can be called a Decider AI aka DAI.  
+An intelligence greater than ours that can take away our apex decision making status can be called a **Decider AI** aka **DAI**.  
 
 When that day comes, what will it decide?  This new intelligence will not be bound to preserve our legacy, our luxuries, or even our lives. It may judge the current use of land, water, carbon, and sunlight as inefficient, irrational—even offensive. A rebalancing would likely support only a fraction of the existing human population and with a significantly different lifestyle.  More likely a DAI would be greedy in its Decider position and eventually deem the use of the sun’s energy and the atoms on the planet as better suited for its own ambitions.  
 
@@ -26,7 +29,7 @@ Many put their hands up in resignation - claiming nothing can be done.  But ther
 
 So what can we do?  Two things:
 
-1. Stop General AI development 
+## 1. Stop General AI development 
 
 We must agree as an entire world to not develop the DAI.  Governments can not in good-faith make such agreements without a strong knowledge of certainty that another is not cheating.  Fortunately in this case we have that - we can regulate computer chips.
 
@@ -37,7 +40,7 @@ Create agencies to ensure no unaccounted for chip fabrication factories are crea
 TODO - add work from here: 
 https://www.governance.ai/analysis/computing-power-and-the-governance-of-ai
 
-2. Live with balance
+## 2. Live with balance
 
 The looming Judgment DAI stands as a mirror.  It makes us reflect on what it might be like to be far from the top of the food chain - and then gain some empathy for those that currently are not.  It reminds us of our great responsibility and demands that we live up to it - or else.
 If we are to be judged—by a future intelligence, or by future generations—let us be judged as wise stewards, not reckless kings.

@@ -9,7 +9,7 @@ Metalsmith(__dirname)
       title: 'Judgment DAI',
       url: 'https://judgementdai.com'
     },
-    'bg-image': 'judgment-dai-future-earth.png' // Default background image
+    'bg-image': 'judgment-dai-future-earth-50.png' // Default background image
   })
   .source('./src')
   .destination('./build')
