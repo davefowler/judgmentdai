@@ -1,101 +1,97 @@
 ---
-title: Plan
+title: The Plan to Keep Control
 layout: default.hbs
-bg-image: judgment-dai-future-earth.png
+bg-image: chips.png
+
 ---
-Plan to Keep the Future Human and Block Decider‑Level AGI
 
-(straightforward, persuasive, no bureaucrat‑speak – a concrete playbook governments can execute today)
+# The Plan to Keep Control
 
-⸻
+*Is it even feasible to stop the development of a* **Decider‑level Artificial General Intelligence (AGI/DAI)**? The answer is ***yes!***—we’ve done similar things before - and the path is surprisingly straightforward.
 
-Why This Matters
-	•	Judgment DAI: A super‑intelligent “Decider AI” would seize the apex slot in Earth’s decision hierarchy, overriding every human choice. Your essay lays out the moral stakes; this plan shows the levers we can pull before the gate slams shut.
-	•	Feasibility, not fantasy:  Compute is concentrated, measurable, and chokepoint‑rich – far easier to police than plutonium or bioweapons inputs.  We can halt AGI progress without grinding narrow, beneficial AI to a halt.
+First let’s look at the main current factor in driving our race toward AGI and ultimately a DAI:
 
-Key sources
-: Computing Power & the Governance of AI (GovAI, 2024), AI Governance to Avoid Extinction (MIRI, 2025), Keep the Future Human (Aguirre, 2025), Gladstone AI Action Plan (2024), and the OpenAI‑affiliated compute‑governance report (arXiv:2402.08797).  These papers converge on three leverage points – compute, law, and coordinated enforcement – which anchor the plan below.
+### What is driving AGI development?
 
-⸻
+The main driver to our race with AGI (and the reason it’s allowed in the free market) is its enormous potential as a weapon.  An incredibly intelligent and capable AI could literally cripple other countries - hacking into their economy, social media, power grids, military weapons, etc.  AI is universally thought to be the next superweapon.
 
-Pillar 1 — Register & Control Compute
+When Nations see a potential weapon, if they cannot confidently guarantee that others are not building it, the next best tactic is to race to be the first to wield it.  Even if today governments made a global pact to never make the DAI, without a confidently verifiable method for knowing that the others are complying, the pact would be useless - they’d all be making their own AGI in secret.
 
-Goal: Make every stack of frontier‑class silicon visible and licensable inside 18 months.
-	1.	Statutory ceiling.  Ban the unauthorised possession or rental of clusters exceeding 10^23 training FLOP (≈ today’s GPT‑4 scale).  Threshold auto‑drops with Moore’s Law (e.g. halve FLOP limit every 18 months) to stay ahead of scaling.
-	2.	National Compute Ledger.  Mandatory registration of:
-	•	all GPUs/ASICs with ≥ 100 TFLOP s‑FP16
-	•	datacenter racks connecting ≥ 1 PFLOP total
-	•	relevant power draw & cooling footprint (easy to cross‑check via utilities).
-	3.	Chip‑level attestation.  Require domestic fabs and importers to flash secure ID firmware (like a TPM on steroids).  Chips phone home to the Ledger; non‑auth chips throttle to <1% speed.
-	4.	Cloud KYC.  Cloud providers must verify customers, log large‑scale training jobs, and stream telemetry to the Ledger.
-	5.	Export & re‑export controls.  Extend October 2022 BIS rules: no unlicensed shipment of frontier AI chips or advanced lithography gear.  Violations = felony plus equipment forfeiture.
-	6.	Audit & seizure unit.  A small, dedicated task force (think IRS‑meets‑NRC) with power to subpoena utility data, raid unregistered sites, and physically disable rogue clusters.
+These factors—more than the feigned altruistic motives or even the capitalist incentives—are why companies are not only allowed, but actively encouraged, to build this potentially devastating technology.
 
-Why it works: The GovAI report shows > 90 % of leading‑edge AI silicon is designed by three firms and fabbed by one (TSMC).  That supply‑chain choke gives us the enforcement grip nukes never had.
+But what if nations *could* confidently guarantee that no one else was building the AGI?!  What if they could make an international pact to never develop the DAI and have absolute proof that everyone was held in compliance? 
 
-⸻
+This would take the threats off the table making AGI much more palatable to halt.
 
-Pillar 2 — Outlaw AGI, License Narrow AI
-
-Goal: Draw a bright red line: no systems that combine High Autonomy + High Generality + High Intelligence.
-	1.	Legal definition (plain‑English):
-“Artificial General Intelligence means any machine‑learning system that, without domain‑specific retraining: (a) surpasses the best 10 % of human experts across ≥ 50 distinct cognitive benchmarks, and (b) can execute self‑directed long‑horizon plans (≥ 1 day) in the physical or digital world.”
-	2.	Total prohibition.  Training, deploying, or even possessing AGI‑class weights is a strict‑liability offense (mirrors US ban on personal bioweapons stockpiles).
-	3.	Narrow‑AI licensing.  Any model trained above the compute ceiling but below AGI threshold needs:
-	•	a safety report (red‑teaming, misuse scenarios)
-	•	provenance logs (datasets, hyper‑params)
-	•	an “alignment bond” (cash or insured surety, forfeited if the model causes defined harms).
-	4.	Model redlines.  Categorical bans on autonomous bio‑design, offensive cyber‑ops, political persuasion at scale, and long‑range autonomous weapons—consistent with Gladstone AI LOE‑recommendations.
-	5.	Penalties.  Fines up to the larger of $10 B or 10× training cost; individual prison terms for executives who OK unlawful runs.
-
-Why it works:  The MIRI Off‑Switch & Halt scenario argues we must be able to pull a universal brake.  Outlawing AGI class‑wide, rather than whack‑a‑mole safety standards, keeps the rulebook simple and enforceable.
-
-⸻
-
-Pillar 3 — Build the Enforcement Spine & Globalize It
-
-Domestic first (Year 1–2)
-	1.	Create the AI Safety & Compute Control Agency (AISCCA).  Seat it inside the Department of Commerce; give it NRC‑style independent powers.
-	2.	Fusion‑cell monitoring.  Merge IRS power‑data, FCC spectrum data, and cloud telemetry into one real‑time dashboard flagged for suspicious GPU clusters.
-	3.	Rapid‑response seals.  AISCCA teams can arrive on‑site within 24 h to image disks, pull breakers, and secure weights.
-
-Link‑up phase (Year 2–4)
-4. Compute Non‑Proliferation Treaty (CNPT).  Invite G7 + Taiwan, South Korea, Netherlands (ASML), Singapore, Israel to lock export controls and chip‑firmware standards.
-5. International Compute Control Authority (ICCA).  Modeled on IAEA; grants inspectors snap‑access to large datacenters, fab output logs, and cloud telemetry portals.
-6. Mutual‑profit carrots.  Offer “Compute for Good” credits—cheap, regulated inference capacity for health, climate, and education—to allied states that ratify CNPT.
-7. Deterrence & penalties.  Sanctions, export bans, and financial blacklisting for states or firms caught training outlawed models; seizure of offending hardware (made worthless by firmware kill‑codes anyway).
-
-Why it works:  AGI training runs need thousands of chips for months.  With firmware attest, satellite‑power signatures, and trade choke points, covert large‑scale runs become nearly impossible.  Nuclear safeguards took decades to mature; compute safeguards piggyback on an already centralized industry.
-
-⸻
-
-Implementation Timeline (Aggressive but Achievable)
-
-Phase	0‑6 mo	6‑18 mo	18‑36 mo	36‑60 mo
-Legislation	Draft compute‑ledger & AGI ban bill; emergency export‑control update	Bill passes; AISCCA funded	Alignment‑bond regs finalized	CNPT treaty text signed
-Tech stack	Firmware spec published; pilot KYC at AWS/GCP/Azure	Mass chip flashing at fabs; national ledger live	Real‑time cloud telemetry feed; power‑sat monitoring	Global ICCA inspectors operational
-Enforcement	Temporary moratorium on >10^25 FLOP training runs	First audits, seizures if needed; civil fines	Criminal prosecutions; public compliance dashboard	Routine global inspections
+## The Plan for Control
 
 
+Many great institutions such as Machine Intelligence Research Lab (MIRI) have been developing plans for AI control over the past few decades, and many more have popped up with the recent acceleration in AI.  
 
-⸻
+We summarize the **key** strategies in those *documents* in the following steps:
 
-End State
-	•	Zero AGI capability on the planet.  All compute above threshold is either idle, aligned research, or narrow, licensed AI.
-	•	Permanent Off‑Switch.  Any attempt to scale beyond limits triggers alarms at the chip, cloud, and treaty levels.
-	•	Human‑First AI Ecosystem.  Narrow tools flourish under a clear ceiling; economic and research gains accrue without risking a Decider takeover.
+## 1. Require Monitoring & an Off-Switch on Compute
 
-⸻
+We need to build monitoring, GPS and an Off-Switch into every advanced processor created.  With this, every high-end chip can be registered and used only for the activities it’s licensed for, in its approved locations.  
 
-Key References
-	•	GovAI – Computing Power and the Governance of AI (2024): https://www.governance.ai/analysis/computing-power-and-the-governance-of-ai
-	•	Sastry et al. – Computing Power & the Governance of AI (arXiv:2402.08797).
-	•	MIRI – AI Governance to Avoid Extinction (2025): https://intelligence.org/wp-content/uploads/2025/05/AI-Governance-to-Avoid-Extinction.pdf
-	•	Aguirre – Keep the Future Human (2025): https://keepthefuturehuman.ai/wp-content/uploads/2025/03/Keep_the_Future_Human__AnthonyAguirre__5March2025.pdf
-	•	Gladstone AI – An Action Plan to Increase the Safety and Security of Advanced AI (2024): https://cdn.slow-news.com/wp-content/uploads/2024/03/Gladstone-Action-Plan.pdf
+It might sound like a wild idea to do this for every high-end chip in the world, but there are fewer than a handful of manufacturers and only one key lithography supplier for all of them—and they are all under the jurisdiction of the U.S. or allied nations. 
 
-(Add any future research links in this section as the literature evolves.)
+The technology for it isn’t sci-fi - in fact most advanced chips already include secure boot processes, telemetry and even GPS modules.  Organizations like [Redwood Research](https://www.redwoodresearch.org/) have been exploring techniques for building scalable oversight and safety mechanisms, including circuit-level interpretability and prototype "off-switch" mechanisms.&#x20;
 
-⸻
+Once in place, these controls ensure AGI-scale training can occur **only** in approved facilities.&#x20;
 
-“The only way to win is not to play.”  This plan shows exactly how to stop the game – before a Decider AI makes the moves for us.
+**Governments and people alike will be able to know with certainty that no one is secretly building AGI**.  Well, for chips coming out of known labs anyway, which brings us to the next step:
+
+## 2. International Agency for *Oversight* & *Enforcement*
+
+The hard controls will need to be backed by an  international agency - staffed by people from many countries - to *monitor* use, investigate suspicious activity, process licenses, etc.
+
+This Agency will also need them to collaborate with the world’s intelligence agencies to ensure there’s no foul play in any country attempting to build their own covert chip fabrication labs. With modern surveillance equipment, and the high level of expertise and precision tooling *required* to manufacture these chips, it should be nearly impossible to build a modern, high-end semiconductor fab in secret.
+
+As noted in ["Regulating Compute Like Nukes"](https://arxiv.org/pdf/2402.08797) by Sastry et al., this scenario compares favorably to our success with nuclear arms control. Uranium is a naturally occurring element that exists in many parts of the world, yet through coordinated safeguards and tracking systems, we’ve maintained effective global oversight for over 50 years. Compared to uranium, high-end chip fabs are vastly harder to build and easier to track—and thus, more feasible to regulate.
+
+---
+
+## 3. Outlaw *General* AI (AGI) Development Internationally
+
+With hard compute controls in place, that trust becomes possible. Nations can verify that no one else is building an AGI. And once that’s true, they can agree to ban it.
+
+We need a bright legal line: no system that combines high-level general reasoning, autonomy, and open-ended goals. AGI development should be made a felony with strict corporate and criminal liability.
+
+We don’t need to ban all AI, but we do need clear rules that prohibit giving AI general capabilities—like understanding or generating language, accessing the internet, or writing code. These guardrails prevent narrow systems from drifting toward generality and autonomy.  
+
+An international treaty would formalize this agreement between nations, setting standards, *inspections*, and mutual enforcement. With that in place, the strategic pressures disappear—and so does the AGI arms race.
+
+---
+
+## 4. Regulate Narrow AI Development
+
+Just as we banned nuclear weapons but not nuclear power, we don’t need to outlaw all AI.
+
+Narrow AI—models with limited scope, no access to broad language corpora, and no goal-seeking *autonomy*—can still offer real value: medical diagnosis, climate simulations, drug discovery. But they must be licensed, logged, and sandboxed.
+
+High-compute projects should file detailed intentions, safety reports and keep records of training data.  Models should not be able to call the internet, write new code, or change their own instructions.
+
+For example, DeepMind’s [AlphaFold](https://www.embopress.org/doi/full/10.15252/embr.202051744) helped solve a major problem in biology. It is powerful but narrow, and entirely safe under this kind of regime.
+
+---
+
+## Awesome, so let’s do it!
+
+We should and we must.  We need more in government (particularly the US government) to be aware of the real AI threat (the loss of control to a DAI), and gain understanding and confidence in these clear solutions.  
+
+We must act now in demanding that our governments halt and ban AGI development. Your voice and action are needed. Organizations like [Control AI](https://controlai.com/take-action) and [Pause AI](https://pauseai.info/) offer actionable guidance, educational resources, and advocacy tools to help you get involved—whether that means contacting representatives, sharing information, or joining coordinated campaigns.  
+
+---
+
+## Further Reading
+
+This was all built off of work done by great organizations such as the Machine Intelligence Research Lab (MIRI) over the past few decades.  For further reading do check these out:
+
+* *[Computing Power & the Governance of AI](https://www.governance.ai/analysis/computing-power-and-the-governance-of-ai)* — Centre for the Governance of AI (2024)
+* *[AI Governance to Avoid Extinction](https://intelligence.org/wp-content/uploads/2025/05/AI-Governance-to-Avoid-Extinction.pdf)* — Machine Intelligence Research Institute (2025)
+* *[Keep the Future Human](https://keepthefuturehuman.ai/wp-content/uploads/2025/03/Keep_the_Future_Human__AnthonyAguirre__5March2025.pdf)* — Anthony Aguirre (2025)
+* *[Gladstone AI Action Plan](https://cdn.slow-news.com/wp-content/uploads/2024/03/Gladstone-Action-Plan.pdf)* (2024)
+* *[Regulating Compute Like Nukes](https://arxiv.org/pdf/2402.08797)* — Sastry et al. (2024)
+
+*The window of control is still open—but not forever. Let’s bolt these safeguards in place before the stakes climb any higher.*
