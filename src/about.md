@@ -8,7 +8,7 @@ This project was created by [Dave Fowler](https://thingsilearned.com/about) as a
 It includes three parts:
 
 
-### 1. Essay
+### 1. [Essay](/)
 
 Over hundreds of conversations—from friends working deep inside San Francisco’s AI labs to complete newcomers—I’ve closely studied what resonates, what confuses, and what unlocks clarity when discussing AI risks.
 
@@ -25,7 +25,7 @@ This essay brings together those learnings and introduces several novel framing 
 - **Judgment DAI**: though i misspelled the domain...(working on fixing that) I found it interesting to tie a very culturally present concept with what's happening with AI.  I didn't go strong on it in the essay, but might that connection draw more serious regard for the threat or resonance with religiously inclined audiences?  Rather than run from the "doomer" name calling, I think we should choose to more confidently accept it.  Doom calling is exactly what we're doing.  Unfortunately the threat is real this time.
 
 
-### 2. Game
+### 2. [Game](/after)
 
 Understanding a concept is one thing—experiencing it is another. We’re not used to being outsmarted, let alone outpowered. To give people a visceral sense of what it might feel like to live under a superintelligence, I created a prompt game: [**After Intelligence**](/after).
 
@@ -34,7 +34,7 @@ The responses have been powerful—many players walk away seeing the future diff
 Earlier, I also built [**DoomerGroomer**](https://doomergroomer.com/), where an AI writes daily notes from the perspective of a future superintelligence. That project similarly aimed to turn abstract fears into something you can feel.
 
 
-### 3. Plan
+### 3. [Plan](/plan)
 
 Many avoid confronting AI risks because they feel there’s nothing we can do. But highlighting feasible solutions may be even more important than highlighting the dangers.
 
