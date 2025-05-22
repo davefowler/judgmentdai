@@ -42,14 +42,18 @@ To support this, we should establish international oversight bodies modeled afte
 We've written more detail in [The Plan to Keep Control](/plan)
 
 
+## 2. Act as the caretakers of life
 
-## 2. Live with balance
+The looming Judgment DAI stands as a mirror. It makes us reflect on what it might be like to no longer sit atop the food chain—and gain some empathy for those who never have. It reminds us of our immense responsibility and demands that we live up to it—or face the consequences.
 
-The looming Judgment DAI stands as a mirror.  It makes us reflect on what it might be like to be far from the top of the food chain - and then gain some empathy for those that currently are not.  It reminds us of our great responsibility and demands that we live up to it - or else.
+DAI threatens not only all of our lives, but all life. In this threat, we see the scale of our obligation. Life deserves to continue, and it will need help to survive beyond the lifespan of our sun. That fate cannot be entrusted to an inorganic intelligence whose empathies and decisions are unknowable. Nor can it be entrusted to a reckless species driven blindly by greed and unchecked progress. That is how we behave today—but it is not who we must be.
+
+Life must be supported by an intelligence that is of nature, dependent on nature, and deeply connected to it. We are that intelligence. We are life’s only long-term hope. And we must become worthy custodians.
+
 If we are to be judged—by a future intelligence, or by future generations—let us be judged as wise stewards, not reckless kings.
 Let us treat Earth not as a warehouse to be emptied, but as a garden to be tended.
-Let us be worthy of our role as the custodians of life.  
-We must rise above resignation. Above denial. Above greed and fear.
+Let us be worthy of our role as the caretakers of life.
+Let us rise above resignation. Above denial. Above greed and fear.
 
 There is **much** to be done (see [The Plan to Keep Control](/plan)).
 
